@@ -10,7 +10,7 @@ pipeline {
     stage('Build') {
        steps {
               echo 'Running build automation'
-              archiveArtifacts artifacts: 'dist/flask_app.zip'
+              //archiveArtifacts artifacts: 'dist/flask_app.zip'
        }
     }
 
