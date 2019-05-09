@@ -1,0 +1,4 @@
+*.un~
+*.idea
+*.egg-info
+*venv
