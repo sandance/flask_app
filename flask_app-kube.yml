@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: flask_app-service
+  name: flaskapp-service
 spec:
   type: NodePort
   selector:
@@ -16,7 +16,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: flask_app-Pod
+  name: flaskapp-Pod
   labels:
     app: flask_app
 spec:
