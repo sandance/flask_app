@@ -8,8 +8,8 @@ spec:
     app: flask_app
   ports:
   - protocol: TCP
-    port: 32100
-    nodePort: 32100
+    port: 32200
+    nodePort: 32200
 
 ---
 
@@ -33,4 +33,4 @@ spec:
       - name: flask_app
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
         ports:
-        - containerPort: 32100
+        - containerPort: 32200
