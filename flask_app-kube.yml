@@ -16,7 +16,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: flaskapp-Pod
+  name: flaskapp
   labels:
     app: flask_app
 spec:
